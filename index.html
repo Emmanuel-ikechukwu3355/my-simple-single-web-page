@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MY PERSONAL WEBSITE</title>
+<link rel="stylesheet" href="\style.css">
+</head>
+<body>
+<main>
+  <div class="container">
+    <div class="header-container">  
+      <div class="header">
+        <img src="\image.jpg" alt="slackProfilePicture" 
+              data-testid="slackProfilePicture">
+      </div>
+      <div  >
+          <h1 data-test-id="slackDisplayName">Emmanuel</h1>
+          <div class="clock-container">
+            <p data-testid="currentTimeUTC"></p>
+            <p data-testid="currentDay"></p>
+          </div>
+          <span  data-test-id="SlackEmail">ikechukwuemmanuel427@gmail.com</span>
+        </div>
+    </div>
+    
+    <section id="goal" >
+            <h2 data-testid="goals-header">My Goal</h2>
+            <p>In the next two years I aim to achieve through effort and dedication:
+            </p>
+            <ul data-testid="list-items">
+              <li data-testid="item1">Gaining mastery in a popular framework like react and staying updated with its recent developments.</li>
+              <li data-testid="item2">Creating a web page and keeping it functional time upon time.</li>
+              <li data-testid="item3">Advancing my code skills and collaborating with other developers.</li>
+              <li data-testid="item4">Mastering backened technology to become a proficient full stack developer.</li>
+            </ul>
+
+            <div id="links" >
+                <h2>Useful Links</h2>
+        <ul>
+        <li><a href="https://hng.tech/learn" data-testid="hngLink">Hng Link</a></li>
+        <li><a href="https://keyword.dog" data-test-id="keywordLink">keyword Dog</a></li>
+        <li><a href="https://scrapeanyweb.site" data-test-id="scrapeanyweb">scrape any web</a></li>
+        </ul>
+      </div>
+        </section> 
+        
+      </main>
+      <script src="app.js"></script>
+</body>
+</html>
